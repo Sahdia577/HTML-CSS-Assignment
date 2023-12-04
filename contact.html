@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kom In Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="mediaqueries.css">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Neem contact met ons op over boeken."/>
+        <meta name="keywords" content="boeken, lezen, stripboeken, literatuur, boekenwereld" />
+        <meta name="author" content="Sahdia Khalid">
+        <meta http-equiv="refresh" content="30">
+    </head>
+
+    <body>
+    <div class="container-grid">
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html" class="li">Home</a></li>
+                    <li><a href="page-2.html" class="li">Word Je Dan Een Boekenwurm?</a></li>
+                    <li><a href="page-3.html" class="li">Welk Leesvoer Kies Je?</a></li>
+                    <li><a href="contact.html" class="active">Kom In Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h4>Kom In Contact</h4>
+                <p>Kan ik ergens mee helpen of wil je me iets vertellen? Ik hoor het graag!</p>
+                <p>Stuur een bericht naar:<a href="mailto:ikke@huppeldepup.nl" class="linking">
+                    ikke@huppeldepup.nl</a>.</p>
+                <p>Het contactformulier hieronder invullen mag natuurlijk ook.</p>
+            </article>
+
+            <img src="images/quill.webp" alt="" title="QuillAndInk" class="image-7">
+
+            <form name="contact" class="my-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <div class="form-group-name">
+                <label for="naam">Naam</label>
+                <input type="text" id="naam" name="name"/> 
+                </div>
+                
+                <div class="form-group-name">
+                    <label for="mail">E-mail</label>
+                    <input type="text" id="mail" name="name"/> 
+                    </div>
+
+
+                <div class="form-radio">
+                    <label>
+                        <input name="btn" type="radio" />Ik heb een vraag
+                    </label>
+                </div>
+
+                <div class="form-radio">
+                    <label>
+                        <input name="btn" type="radio"/>Ik wil feedback geven
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="message" rows="15" cols="40" placeholder="Begin met typen"></textarea>
+                  </div>
+                  
+                <div class="form-group">
+                    <label for="reset">Verwijder mijn invoer</label>
+                    <input class="button" type="reset" name="reset" />
+                </div>
+
+                <div class="form-group">
+                    <label for="submit">Verzenden</label>
+                    <input class="button" type="submit" value="Insturen">
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p>Dit artikel is geschreven door onze vaste bibliofiel Sadya.</p>
+            <p>Disclaimer: Wij zijn niet verantwoordelijk voor mogelijke bijwerkingen
+                zoals het ruiken aan boeken, het niet kunnen wegleggen van een boek, sterke  
+                drang om elke boekwinkel binnen te lopen, het stinken naar inkt en papier.</p>
+        </footer>
+    
+    </div>
+    </body>
+</html>
